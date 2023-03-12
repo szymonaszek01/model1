@@ -19,6 +19,8 @@ public class Transaction {
 
     private BigDecimal cost;
 
+    private int amount;
+
     @ManyToOne
     private CarPart carPart;
 
